@@ -1,5 +1,5 @@
 import { StyledEngineProvider } from "@mui/material/styles";
-import NavBar from "./NavBar";
+import NavBar from "./NavBar/";
 
 function App() {
   return (
