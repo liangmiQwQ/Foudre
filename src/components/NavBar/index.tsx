@@ -1,6 +1,6 @@
 import { IconButton, Typography } from "@mui/material";
-import SettingsIcon from "@mui/icons-material/Settings";
 import FloatProvider from "./FloatProvider";
+import ButtonsAnimation from "./ButtonsAnimation";
 
 export default function NavBar() {
   const Provider = FloatProvider;
@@ -13,11 +13,7 @@ export default function NavBar() {
         Foudre
       </Typography>
       {/* Nav Buttons */}
-      <div className="items-center flex">
-        <IconButton>
-          <SettingsIcon></SettingsIcon>
-        </IconButton>
-      </div>
+      <ButtonsAnimation></ButtonsAnimation>
     </Provider>
   );
 }
